@@ -9,3 +9,9 @@ test_makefile_so/src/main.exe
 test_makefile_so/src/main.o
 hellodll2/hellodll2.exe
 hellodll2/lib.dll
+test_makefile_all/bin/libfun.dll
+test_makefile_all/bin/main.exe
+test_makefile_all/src/fun/fun.o
+test_makefile_all/src/fun/libfun.dll
+test_makefile_all/src/main.exe
+test_makefile_all/src/main.o
