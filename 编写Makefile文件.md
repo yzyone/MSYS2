@@ -223,6 +223,7 @@ g++的常用参数说明:
 	}
 
 看一下最简单的编译.cpp代码的Makefile怎么写
+
 	1
 	2main : main.o
 	3	g++ -o $@ $^
@@ -505,8 +506,9 @@ fun/Makefile的内容
 
 	#LIBS    += -lrt
 	#LIBS    += -pthread
-
-	OBJECT := fun.o \    #修改的地方2: 表示编译fun.cpp
+	
+	#修改的地方2: 表示编译fun.cpp
+	OBJECT := fun.o \
 
 	#修改的地方3: 指出了bin的相对路径
 	BIN_PATH = ../../bin/
