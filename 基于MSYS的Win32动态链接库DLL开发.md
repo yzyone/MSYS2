@@ -132,7 +132,7 @@ int foo(char*str)
 #include<windows.h>
 #include<stdio.h>
 
-typedefint(*FOO)(char*str);
+typedef int(*FOO)(char*str);
 
 int main()
 {
