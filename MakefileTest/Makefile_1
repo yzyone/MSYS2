@@ -1,0 +1,4 @@
+# 最简单的Makefile
+
+hello:
+	@echo "hello Makefile"

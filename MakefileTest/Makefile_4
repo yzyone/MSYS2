@@ -1,0 +1,12 @@
+# 定义一个新的目标all,依赖hello和hello2
+all : hello hello2
+
+# hello依赖ready
+hello : ready
+	@echo "hello Makefile"
+
+hello2 :
+	@echo "hello dafei"
+
+ready :
+	@echo "i'm ready"

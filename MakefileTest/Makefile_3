@@ -1,0 +1,10 @@
+# hello需要依赖ready
+hello : ready
+	@echo "hello Makefile"
+
+hello2 :
+	@echo "hello dafei"
+
+# 新增一个目标,输出准备
+ready :
+	@echo "i'm ready"
