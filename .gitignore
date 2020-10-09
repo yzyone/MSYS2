@@ -7,3 +7,5 @@ test_makefile_so/src/fun/fun.o
 test_makefile_so/src/fun/libfun.dll
 test_makefile_so/src/main.exe
 test_makefile_so/src/main.o
+hellodll2/hellodll2.exe
+hellodll2/lib.dll
