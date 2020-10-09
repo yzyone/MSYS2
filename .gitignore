@@ -1,0 +1,9 @@
+
+hellodll1/hellodll1.exe
+hellodll1/lib.dll
+test_makefile_so/bin/libfun.dll
+test_makefile_so/bin/main.exe
+test_makefile_so/src/fun/fun.o
+test_makefile_so/src/fun/libfun.dll
+test_makefile_so/src/main.exe
+test_makefile_so/src/main.o
