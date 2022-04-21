@@ -4,36 +4,29 @@ MSYS2 mingw64环境搭建
 
 pacman 镜像
 
+配置文件：`/etc/pacman.d/mirrorlist`
+
 ## MSYS2 repository mirrorlist
 
     Server = http://mirrors.ustc.edu.cn/msys2/REPOS/MSYS2/$arch
-    
     Server = http://mirror.bit.edu.cn/msys2/REPOS/MSYS2/$arch
-    
     Server = http://www.mirrorservice.org/sites/download.sourceforge.net/pub/sourceforge/m/ms/msys2/REPOS/MSYS2/$arch
-    
     Server = http://downloads.sourceforge.net/project/msys2/REPOS/MSYS2/$arch
 
 
 ## 32-bit Mingw-w64 repository mirrorlist
 
     Server = http://mirrors.ustc.edu.cn/msys2/REPOS/MINGW/i686
-    
     Server = http://mirror.bit.edu.cn/msys2/REPOS/MINGW/i686
-    
     Server = http://www.mirrorservice.org/sites/download.sourceforge.net/pub/sourceforge/m/ms/msys2/REPOS/MINGW/i686
-    
     Server = http://downloads.sourceforge.net/project/msys2/REPOS/MINGW/i686
 
 
 ## 64-bit Mingw-w64 repository mirrorlist
 
     Server = http://mirrors.ustc.edu.cn/msys2/REPOS/MINGW/x86_64
-    
     Server = http://mirror.bit.edu.cn/msys2/REPOS/MINGW/x86_64
-    
     Server = http://www.mirrorservice.org/sites/download.sourceforge.net/pub/sourceforge/m/ms/msys2/REPOS/MINGW/x86_64
-    
     Server = http://downloads.sourceforge.net/project/msys2/REPOS/MINGW/x86_64
 
 
